@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: #DDD;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: burlywood;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+.posts {
+  min-height: 1000px;
+}
+
+.carousel-arrow {
+  font-size: 48px;
+}
+
+.carousel-arrow--next {
+  transform: rotate(180deg)
+}
